@@ -25,7 +25,8 @@ public class GreatestNumberCandies {
     }
 
     public static void main(String[] args) {
-        int[] candy = {4,2,1,1,2};
+        int[] candy = {21,1,21};
         System.out.println(kidsWithCandies(candy,1));
+        System.out.println(kidsWithCandies(candy,10));
     }
 }
